@@ -25,6 +25,16 @@ https://floatingcam.com/blog/multiple-printers-and-octoprint/
 Cómo poner un botón de apagado  
 https://www.quartoknows.com/page/raspberry-pi-shutdown-button
 
+## Instancias de Impresoras
++ 192.168.1.7/ender1/
++ 192.168.1.7/ender2/
++ 192.168.1.65/ender3/
++ 192.168.1.65/ender4/
+
+## Usuario y Contraseña
+user: inventoteca
+password: Inventoprint
+
 ## Datos de OctoPrint
 OctoPrint version 1.3.12  
 OctoPi version 0.17.0  
