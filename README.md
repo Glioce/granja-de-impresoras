@@ -32,8 +32,8 @@ https://www.quartoknows.com/page/raspberry-pi-shutdown-button
 + 192.168.1.65/ender4/
 
 ## Usuario y Contraseña
-user: inventoteca
-password: Inventoprint
+User: inventoteca
+Password: Inventoprint
 
 ## Datos de OctoPrint
 OctoPrint version 1.3.12  
