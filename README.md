@@ -14,6 +14,15 @@ En la primera instalación (iniciada en diciembre de 2019) se busca que la granj
 + 3 Raspberry Pi 3 B+ (cada Raspberry controla 2 impresoras y 2 webcam)
 + 4 webcam
 
+Actualización en enero de 2020:
++ 6 impresoras Creality Ender 3
++ 1 impresora MakerBot Replicator 2
++ 1 impresora MakerBot Replicator 2X
++ 5 Raspberry Pi 3 B+ (cada Raspberry controla 2 impresoras y 2 webcam)
++ 6 webcam
++ 1 Router CNC Stepcraft 840
++ 1 Cortadora láser
+
 ## Tutoriales
 Cómo configurar varias instancias de OctoPrint en una sola RPi  
 Tuto principal  
