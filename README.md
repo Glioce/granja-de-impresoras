@@ -74,3 +74,37 @@ Temperatura de plataforma PLA: 30 ℃ piezas pequeñas
 Velocidad  
 Altura mínima de capas  
 Altura máxima de capas  
+
+### Cambios en código G para Makerbots en Ultimaker Cura
+; — start of START GCODE – 
+M73 P0 (enable build progress) 
+;this next line won’t work, but has the steps command 
+M92 X88.8 Y88.8 Z400 E101 ; sets steps per mm for Rep2 
+G90 (set positioning to absolute) 
+(**** begin homing ****) 
+G162 X Y F4000 (home XY axes maximum) 
+G161 Z F3500 (home Z axis minimum) 
+G92 Z-5 (set Z to -5) 
+G1 Z0.0 (move Z to “0”) 
+G161 Z F100 (home Z axis minimum) 
+M132 X Y Z A B (Recall stored home offsets for XYZAB axis) 
+(**** end homing ****) 
+G92 X147 Y66 Z5 
+G1 X105 Y-60 Z10 F4000.0 (move to waiting position) 
+G130 X0 Y0 A0 B0 (Set Stepper motor Vref to lower value while heating) 
+G130 X127 Y127 A127 B127 (Set Stepper motor Vref to defaults) 
+G0 X105 Y-60 (Position Nozzle) 
+G0 Z0.6 (Position Height) 
+; — end of START GCODE – 
+
+
+
+; — start of END GCODE – 
+G92 Z0 
+G1 Z140 F900 
+M18 
+M104 S0 T0 
+M73 P100 (end build progress) 
+G162 X Y F3000 
+M18 
+; — end of END GCODE –
