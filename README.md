@@ -39,6 +39,8 @@ https://www.quartoknows.com/page/raspberry-pi-shutdown-button
 + 192.168.1.7/ender2/
 + 192.168.1.65/ender3/
 + 192.168.1.65/ender4/
++ 192.168.1.47/replicator-2/
++ 192.168.1.47/replicator-2x/
 
 ## Usuario y Contraseña
 User: inventoteca
@@ -50,15 +52,15 @@ OctoPi version 0.17.0
 
 ## Datos de las impresoras
 ### Creality Ender 3
-Volumen de impresión: 250 x 250 x 250 mm ??  
+Volumen de impresión: 220 x 220 x 250 mm  
 Temperatura de extrusor PLA: 220 ℃  
-Temperatura de plataforma PLA: 30 ℃ piezas pequeñas  
+Temperatura de plataforma PLA: 50 ℃ piezas pequeñas  
 Velocidad  
 Altura mínima de capas  
 Altura máxima de capas  
 
 ### MakerBot Replicator 2
-Volumen de impresión: 270 x 250 x 250 mm ??  
+Volumen de impresión: 260 x 150 x 150 mm ??  
 Temperatura de extrusor PLA: 220 ℃  
 Temperatura de plataforma PLA: 30 ℃ piezas pequeñas  
 Velocidad  
@@ -66,7 +68,7 @@ Altura mínima de capas
 Altura máxima de capas  
 
 ### MakerBot Replicator 2X
-Volumen de impresión: 250 x 250 x 250 mm ??  
+Volumen de impresión: 225 x 145 x 150 mm ??  
 Temperatura de extrusor PLA: 220 ℃  
 Temperatura de plataforma PLA: 30 ℃ piezas pequeñas  
 Velocidad  
