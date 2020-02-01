@@ -108,3 +108,9 @@ M73 P100 (end build progress)
 G162 X Y F3000 
 M18 
 ; — end of END GCODE –
+
+
+Token bot Ender 1:
++ 1016095671:AAEDQOP7SWQJ2r-xOFsiIP_Ji4F4hbPfgQM
+Token bot Ender 2:
++ 1018989964:AAFHopf0ecDaPqVQhiM71TPgqzsGaj2i7Uw
